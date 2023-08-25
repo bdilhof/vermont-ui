@@ -1,0 +1,30 @@
+{
+    "name": "vrmnt/ui",
+    "description": "Blade Components Package",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Dilhof",
+            "email": "bruno.dilhof@vermont.eu",
+            "role": "Web Application Developer"
+        }
+    ],
+    "require": {
+        "php": "^7|^8",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vrmnt\\Ui\\UiServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vrmnt\\Ui\\": "src"
+        }
+    }
+}
+

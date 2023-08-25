@@ -1,0 +1,11 @@
+# Directories
+.idea/
+node_modules/
+vendor/
+build/
+
+# Files
+/.phpunit.result.cache
+/.npmrc
+/auth.json
+/mix-manifest.json
